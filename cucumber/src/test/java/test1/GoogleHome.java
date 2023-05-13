@@ -52,7 +52,7 @@ public class GoogleHome extends Driver {
 	public void user_press_enter() {
 
 		driver.findElement(By.xpath("//textarea[@class='gLFyf']")).sendKeys(Keys.ENTER);
-
+System.out.println("Hello");
 	}
 
 	@Then("search should happens")
